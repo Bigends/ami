@@ -846,7 +846,7 @@ li.megamenu-img a {
 }
 
 .main-menu nav>ul>li:hover>a {
-    color: #292929;
+    color: #12a4dd;
 }
 
 .main-menu nav>ul>li ul {
@@ -2441,7 +2441,7 @@ li.megamenu-img a {
 .newsletter-area {
     padding-top: 40px !important;
     padding-bottom: 40px !important;
-    background-color: #1a568f !important;
+    background-color: #12a4dd !important;
     margin-top: 60px;
 }
 
