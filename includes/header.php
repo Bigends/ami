@@ -54,7 +54,7 @@
                             <div class="col-xl-2 col-md-12">
                                 <!-- site-logo -->
                                 <div class="site-logo">
-                                    <a href="index.html"><img src="images/logo/amilogo3.png" alt="Nikado"></a>
+                                    <a href="index.php"><img src="images/logo/amilogo3.png" alt="Nikado"></a>
                                 </div>
                             </div>
                             <div class="col-xl-6 col-md-12">
@@ -147,15 +147,16 @@
                                 <div class="main-menu">
                                     <nav>
                                         <ul>
-                                            <li class="current"><a href="index.html">Accueil</a>
+                                            <li class="current"><a href="index.php">Accueil</a>
                                             </li>
-                                            <li><a href="shop.html">Qui sommes nous</a></li>
-                                            <li><a href="blog.html">Demande de devis <i class="fa fa-angle-down"></i></a>
+                                            <li><a href="a-propos.php">À propos</a></li>
+                                            <li><a href="">Demande de devis <i class="fa fa-angle-down"></i></a>
                                                 <ul class="submenu">
-                                                    <li><a href="index.html">Devis Achat T.P.E</a></li>
+                                                    <li><a href="devis-achat-tpe.php">Devis Achat T.P.E</a></li>
+                                                    <li><a href="devis-achat-caisse.php">Devis Achat Caisse</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="contact-us.html">Contactez-nous</a></li>
+                                            <li><a href="contact.php">Contactez-nous</a></li>
                                         </ul>
                                     </nav>
                                 </div>
