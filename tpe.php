@@ -115,6 +115,8 @@
                                 <div class="shop-page-product-area tab-content">
                                 <div id="list" class="tab-pane fade in show active">
                                         <div class="row">
+                                        
+                                        <!-- Début de la première article -->
                                             <div class="col-sm-12">
                                                 <div class="single-product-area">
                                                     <div class="product-wrapper listview">
@@ -173,6 +175,7 @@
                                                         <?php }
 
                                                         ?>
+                                            <!-- Fin de la première article -->
   
                                             <div class="col-sm-12">
                                                 <div class="single-product-area">
