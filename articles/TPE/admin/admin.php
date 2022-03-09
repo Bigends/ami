@@ -38,10 +38,10 @@ require_once('includes/header.php');
                 $save_article = $db->prepare('INSERT INTO tpe(titre,contenu,images_name,price) VALUES(?,?,?,?)');
 
                 $save_article->execute(array($titre,$contenu,$name_file,$price));
-                echo "Opération réussie";
+                echo "<h5 style='color:green;border: solid 1px black;text-align:center;background-color:white;padding:3px;'> Opération réussie</h5>";
 
             }
-            ?>
+            ?><br>
             <h5>Titre</h5>
             <form method="POST" action="" enctype="multipart/form-data">
                 <input type="text" name="titre" placeholder="Titre de l'article" required="" class="form form-control"><h5>Prix</h5>
