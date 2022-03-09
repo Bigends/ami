@@ -3,7 +3,7 @@ require_once('includes/header.php');
 ?>
 
 <div class="center">
-    <h1>Ajouter un T.P.E</h1><br><br><br>
+    <h1>Ajouter un T.P.E</h1><br>
     <?php
     if (isset($_GET['action'])) {
         if ($_GET['action'] == 'add_article') {
