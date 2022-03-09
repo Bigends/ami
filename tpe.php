@@ -47,9 +47,9 @@
         <!-- Body main wrapper start -->
         <div class="wrapper home-one single-product-page">
 
-        <!-- Header Start -->
-        <?php include 'includes/header.php';?>
-        <!-- Header Done -->
+            <!-- Header Start -->
+            <?php include 'includes/header.php';?>
+            <!-- Header Done -->
             <!-- Breadcrumbs -->
             <div class="breadcrumbs-container">
                 <div class="container">
@@ -64,7 +64,7 @@
                 </div>
             </div>
             <!-- Breadcrumbs End -->
-            
+
             <!-- Shop page wraper -->
             <div class="shop-page-wraper">
                 <div class="container">
@@ -113,49 +113,43 @@
                             <div class="product-toolbar">
 
                                 <div class="shop-page-product-area tab-content">
-                                <div id="list" class="tab-pane fade in show active">
+                                    <div id="list" class="tab-pane fade in show active">
                                         <div class="row">
-                                        
-                                        <!-- Début de la première article -->
 
-                                                            <?php
-                                                            require_once("articles/TPE/admin/includes/database.php");
-                                                            $req=$db->prepare('SELECT *FROM tpe');
-                                                            $req->execute();
-                                                            while ($reponse=$req->fetch(PDO::FETCH_OBJ)) {?>
+                                            <!-- Début de l'article -->
+                                            <?php
+                                            require_once("articles/TPE/admin/includes/database.php");
+                                            $req=$db->prepare('SELECT *FROM tpe');
+                                            $req->execute();
+                                            while ($reponse=$req->fetch(PDO::FETCH_OBJ)) {?>
 
                                             <div class="col-sm-12">
                                                 <div class="single-product-area">
                                                     <div class="product-wrapper listview">
+
                                                         <div class="list-col4">
-                 
-                                                                <div class="product-image">
-                                                                <a href="">
-                                                                    <span class="onsale">Sale!</span>
-                                                                    <img src="articles/TPE/admin/images/<?php echo $reponse->images_name ?>" alt="">
+                                                            <div class="product-image">
+                                                                <a href="devis-achat-tpe.php">
+                                                                    <!-- Image Produit -->
+                                                                    <img src="articles/TPE/admin/images/<?php echo $reponse->images_name ?>"
+                                                                        alt="">
                                                                 </a>
-                                                                <div class="quickviewbtn">
-                                                                    <a href="#" data-toggle="modal" data-target="#product_modal"  data-original-title="Quick View"><i class="ion-eye"></i></a>
-                                                                </div>
                                                             </div>
                                                         </div>
                                                         <div class="list-col8">
                                                             <div class="product-info">
-                                                                <h2><a href="single-product.html"><?php echo $reponse->titre; ?></a></h2>
+                                                                <!-- Titre Produit -->
+                                                                <h2><a
+                                                                        href="single-product.html"><?php echo $reponse->titre; ?></a>
+                                                                </h2>
+                                                                <!-- Prix Produit -->
                                                                 <span class="price">
-                                                                <?php echo $reponse->price; ?>
+                                                                    <?php echo $reponse->price; ?>
                                                                 </span>
-
-
-                                                                <div class="product-rattings">
-                                                                    <span><i class="fa fa-star"></i></span>
-                                                                    <span><i class="fa fa-star"></i></span>
-                                                                    <span><i class="fa fa-star"></i></span>
-                                                                    <span><i class="fa fa-star-half-o"></i></span>
-                                                                    <span><i class="fa fa-star-o"></i></span>
-                                                                </div>
+                                                                <!-- Description Produit -->
                                                                 <div class="product-desc">
-                                                                    <p><?php echo substr($reponse->contenu, 0,100); ?></p>
+                                                                    <p><?php echo substr($reponse->contenu, 0,100); ?>
+                                                                    </p>
                                                                 </div>
                                                             </div>
                                                             <div class="actions-wrapper"><br><br>
@@ -164,9 +158,16 @@
                                                                 </div>
                                                                 <div class="star-actions">
                                                                     <ul class="actions">
-                                                                        <li><a href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-check" viewBox="0 0 16 16">
-                                                                        <path fill-rule="evenodd" d="M10.854 8.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L7.5 10.793l2.646-2.647a.5.5 0 0 1 .708 0z"/>
-                                                                        <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+                                                                        <li><a href=""><svg
+                                                                        xmlns="http://www.w3.org/2000/svg"
+                                                                        width="16" height="16"
+                                                                        fill="currentColor"
+                                                                        class="bi bi-bag-check"
+                                                                        viewBox="0 0 16 16">
+                                                                        <path fill-rule="evenodd"
+                                                                        d="M10.854 8.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L7.5 10.793l2.646-2.647a.5.5 0 0 1 .708 0z" />
+                                                                        <path
+                                                                        d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
                                                                         </svg> Disponible</a></li>
                                                                     </ul>
                                                                 </div>
@@ -175,40 +176,38 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                                        <?php }
+                                            <?php }
 
-                                                        ?>
-                                            <!-- Fin de la première article -->
+                                            ?>
+                                            <!-- Fin de l'article -->
                                         </div>
                                     </div>
                                 </div>
                             </div>
+                            <!-- Début Pagination -->
                             <nav class="woocommerce-pagination">
                                 <ul class="page-numbers">
                                     <li><span aria-current="page" class="page-numbers current">1</span></li>
-                                    <li><a class="page-numbers" href="#">2</a></li>
-                                    <li><a class="page-numbers" href="#">3</a></li>
-                                    <li><a class="page-numbers" href="#">4</a></li>
+                                    <!-- <li><a class="page-numbers" href="#">2</a></li> -->
                                     <li><a class="next page-numbers" href="#">→</a></li>
                                 </ul>
                             </nav>
+                            <!-- Fin Pagination -->
                         </div>
                     </div>
-                </div> 
+                </div>
             </div>
             <!-- Shop page wraper end -->
-        <!-- Footer Début -->
-        <?php include 'includes/footer.php'; ?>
-        <!-- Footer Fin -->
+            <!-- Footer Début -->
+            <?php include 'includes/footer.php'; ?>
+            <!-- Footer Fin -->
         </div>
         <!-- Body main wrapper end -->
 
-
         <!-- jQuery CDN -->
-         <script src="js/jquery-1.12.4.min.js"></script>   
-         
+        <script src="js/jquery-1.12.4.min.js"></script>
+
         <!-- jQuery Local -->
-        
 
         <!-- Popper min js -->
         <script src="js/popper.min.js"></script>
@@ -219,13 +218,17 @@
         <!-- Main js  -->
         <script src="js/main.js"></script>
 
-
-
         <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
         <script>
-            window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
-            ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
+            window.ga = function() {
+                ga.q.push(arguments)
+            };
+            ga.q = [];
+            ga.l = +new Date;
+            ga('create', 'UA-XXXXX-Y', 'auto');
+            ga('send', 'pageview')
         </script>
         <script src="https://www.google-analytics.com/analytics.js" async defer></script>
     </body>
-</html>
+
+    </html>
