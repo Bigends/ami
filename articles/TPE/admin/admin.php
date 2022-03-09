@@ -3,7 +3,7 @@ require_once('includes/header.php');
 ?>
 
 <div class="center">
-    <h1>Administration</h1><br><br><br>
+    <h1>Ajouter un T.P.E</h1><br><br><br>
     <?php
     if (isset($_GET['action'])) {
         if ($_GET['action'] == 'add_article') {
@@ -35,17 +35,17 @@ require_once('includes/header.php');
 
                 }
 
-                $save_article = $db->prepare('INSERT INTO all_articles(titre,contenu,images_name,price) VALUES(?,?,?,?)');
+                $save_article = $db->prepare('INSERT INTO tpe(titre,contenu,images_name,price) VALUES(?,?,?,?)');
 
                 $save_article->execute(array($titre,$contenu,$name_file,$price));
                 echo "Opération réussie";
 
             }
             ?>
-            <h4>Ajouter un article</h4>
+            <h5>Titre</h5>
             <form method="POST" action="" enctype="multipart/form-data">
-                <input type="text" name="titre" placeholder="Titre de l'article" required="" class="form form-control">
-                <input type="text" name="price" placeholder="Prix de l'article" required="" class="form form-control">
+                <input type="text" name="titre" placeholder="Titre de l'article" required="" class="form form-control"><h5>Prix</h5>
+                <input type="text" name="price" placeholder="Prix de l'article" required="" class="form form-control"><h5>Description</h5>
                 <textarea name="contenu" placeholder="Description de l'article" class="form form-control"></textarea><br>
                 <input type="file" name="fichier"><br><br>
                 <input type="submit" name="submit" class="btn btn-light">

@@ -39,7 +39,7 @@
         <link rel="stylesheet" href="http://localhost/AMI/css/main6.css">
         <link rel="stylesheet" href="http://localhost/AMI/css/responsive.css">
         <link rel="stylesheet" href="http://localhost/AMI/css/colors.css">
-        <link rel="stylesheet" href="http://localhost/AMI/articles/admin/css/style.css">
+        <link rel="stylesheet" href="http://localhost/AMI/articles/TPE/admin/css/style.css">
 
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     </head>
@@ -47,29 +47,32 @@
     <!-- Navbar Début -->
     <nav class="navbar navbar-expand-lg navbar-primary bg-dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Admin</a>
+    <a class="navbar-brand text-light" href="#">ADMIN</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link" href="?action=add_article">TPE</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="?action=add_article">Ajouter un article</a>
+          <a class="nav-link active" aria-current="page" href="#">Monnayeur</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled text-primary">Disabled</a>
+          <a class="nav-link active" aria-current="page" href="#">Système Encaissement</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Solution Paiement</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Caméra de surveillance</a>
         </li>
       </ul>
-      <form class="d-flex align-content-xl-end">
-        <input class="form-control me-2 justify-content-end" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success end" type="submit">Search</button>
-      </form>
     </div>
   </div>
 </nav>
+<!-- Navbar Fin -->
     
 
 

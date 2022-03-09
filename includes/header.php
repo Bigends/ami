@@ -113,7 +113,7 @@
                                     <span class="categorie-title">Catégories</span>
                                     <nav>
                                         <ul class="categori-menu-list menu-hidden">
-                                            <li><a href="shop.html"><span><img src="images/icons/1.png" alt="menu-icon"></span>T.P.E</a>
+                                            <li><a href="tpe.php"><span><img src="images/icons/1.png" alt="menu-icon"></span>T.P.E</a>
                                                 <!-- categori Mega-Menu Start -->
 
                                                 <!-- categori Mega-Menu End -->
