@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1
--- Généré le : mar. 08 mars 2022 à 22:23
+-- Généré le : mer. 09 mars 2022 à 22:37
 -- Version du serveur : 10.4.22-MariaDB
 -- Version de PHP : 8.0.15
 
@@ -24,10 +24,10 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Structure de la table `all_articles`
+-- Structure de la table `tpe`
 --
 
-CREATE TABLE `all_articles` (
+CREATE TABLE `tpe` (
   `id` int(11) NOT NULL,
   `titre` varchar(255) NOT NULL,
   `contenu` text NOT NULL,
@@ -36,20 +36,22 @@ CREATE TABLE `all_articles` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Déchargement des données de la table `all_articles`
+-- Déchargement des données de la table `tpe`
 --
 
-INSERT INTO `all_articles` (`id`, `titre`, `contenu`, `images_name`, `price`) VALUES
-(3, 'TPE INGENICO', 'CHRIS LE BGCHRIS LE BGCHRIS LE BGCHRIS LE BGCHRIS LE BGCHRIS LE BGCHRIS LE BGCHRIS LE BG', '1646774535.jpg', '950 EUROS');
+INSERT INTO `tpe` (`id`, `titre`, `contenu`, `images_name`, `price`) VALUES
+(3, 'A80 PAX', 'Achat, vente, location, maintenance Terminal de Paiement Electronique Pax A80', '1646774535.jpg', '950€'),
+(4, 'Test 2', 'HELLO WORLD HELLO WORLDHELLO WORLDHELLO WORLDHELLO WORLDHELLO WORLDHELLO WORLDHELLO WORLDHELLO WORLDHELLO WORLDHELLO WORLD', '1646829037.jpg', '5000'),
+(5, 'test 3', 'testttttttttttttt', '1646829176.jpg', '500000');
 
 --
 -- Index pour les tables déchargées
 --
 
 --
--- Index pour la table `all_articles`
+-- Index pour la table `tpe`
 --
-ALTER TABLE `all_articles`
+ALTER TABLE `tpe`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -57,10 +59,10 @@ ALTER TABLE `all_articles`
 --
 
 --
--- AUTO_INCREMENT pour la table `all_articles`
+-- AUTO_INCREMENT pour la table `tpe`
 --
-ALTER TABLE `all_articles`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+ALTER TABLE `tpe`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

@@ -154,7 +154,7 @@
                                                             </div>
                                                             <div class="actions-wrapper"><br><br>
                                                                 <div class="add-to-cart">
-                                                                    <a href="cart.html">Devis</a>
+                                                                    <a href="devis-achat-tpe.php">Devis</a>
                                                                 </div>
                                                                 <div class="star-actions">
                                                                     <ul class="actions">
