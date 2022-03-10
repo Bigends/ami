@@ -68,6 +68,9 @@
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">Caméra de surveillance</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link text-danger" href="?action=edit_delete">Modifier ou supprimer</a>
+        </li>
       </ul>
     </div>
   </div>

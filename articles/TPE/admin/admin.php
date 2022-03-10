@@ -3,7 +3,7 @@ require_once('includes/header.php');
 ?>
 
 <div class="center">
-    <h1>Ajouter un T.P.E</h1><br>
+    <h1>Administration</h1><br>
     <?php
     if (isset($_GET['action'])) {
         if ($_GET['action'] == 'add_article') {
@@ -52,7 +52,20 @@ require_once('includes/header.php');
             </form>
 
             <?php
-            
+        }elseif ($_GET['action'] == 'edit_delete') {
+            require_once("includes/database.php");
+            $req_all_article = $db->prepare('SELECT *FROM tpe');
+            $req_all_article->execute();
+
+            while ($reponse= $req_all_article->fetch(PDO::FETCH_OBJ)) {
+                ?>
+                <table style="width: 100%">
+                    <tr><td><?php echo $reponse->titre ?></td></tr>
+                    <tr><td><a href="">modifier</td></tr>
+                    <tr><td><a href="">supprimer</td></tr>
+                </table>
+                <?php 
+            }
         }
     }
 
