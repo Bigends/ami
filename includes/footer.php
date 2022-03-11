@@ -39,7 +39,7 @@
                         <div class="row">
                             <div class="col-sm-6 col-lg-3 col-md-3 col-xs-12">
                                 <div class="footer-logo-area">
-                                    <a href="#"><img src="images/logo/amilogo2.png" alt="footer logo"></a>
+                                    <a href="#"><img src="http://localhost/AMI/assets/images/logo/amilogo2.png" alt="footer logo"></a>
                                     <p>Alpha Monétique Intéractif. <br>La Monétique d'aujourd'hui.</p>
                                 </div>
                             </div>
@@ -47,7 +47,7 @@
                                 <div class="footer-menu">
                                     <h3>Service clients</h3>
                                     <ul>
-                                        <li><a href="contact.php">Contactez-nous</a></li>
+                                        <li><a href="http://localhost/AMI/contact.php">Contactez-nous</a></li>
                                         <li><a href="https://goo.gl/maps/geKPswfhgtTGB1gi7">Localisation Web</a></li>
                                         <li><a href="#">Avis clients</a></li>
                                     </ul>
@@ -57,7 +57,7 @@
                                 <div class="footer-menu">
                                     <h3>Information</h3>
                                     <ul>
-                                        <li><a href="#">À propos</a></li>
+                                        <li><a href="http://localhost/AMI/a-propos.php">À propos</a></li>
                                     </ul>
                                 </div>
                             </div>

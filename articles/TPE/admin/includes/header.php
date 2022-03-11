@@ -29,18 +29,20 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Favicon -->
-        <link rel="shortcut icon" type="image/x-icon" href="images/icons/icon_logo2.png">
+        <link rel="shortcut icon" type="image/x-icon" href="assets/images/icons/icon_logo2.png">
 
-        <link rel="stylesheet" href="http://localhost/AMI/css/bootstrap.min.css">
-        <link rel="stylesheet" href="http://localhost/AMI/css/font-awesome.min.css">
-        <link rel="stylesheet" href="http://localhost/AMI/css/ionicons.min.css">
-        <link rel="stylesheet" href="http://localhost/AMI/css/css-plugins-call.css">
-        <link rel="stylesheet" href="http://localhost/AMI/css/bundle3.css">
-        <link rel="stylesheet" href="http://localhost/AMI/css/main6.css">
-        <link rel="stylesheet" href="http://localhost/AMI/css/responsive.css">
-        <link rel="stylesheet" href="http://localhost/AMI/css/colors.css">
+        <link rel="stylesheet" href="http://localhost/AMI/assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://localhost/AMI/assets/css/font-awesome.min.css">
+        <link rel="stylesheet" href="http://localhost/AMI/assets/css/ionicons.min.css">
+        <link rel="stylesheet" href="http://localhost/AMI/assets/css/css-plugins-call.css">
+        <link rel="stylesheet" href="http://localhost/AMI/assets/css/bundle3.css">
+        <link rel="stylesheet" href="http://localhost/AMI/assets/css/main6.css">
+        <link rel="stylesheet" href="http://localhost/AMI/assets/css/responsive.css">
+        <link rel="stylesheet" href="http://localhost/AMI/assets/css/colors.css">
         <link rel="stylesheet" href="http://localhost/AMI/articles/TPE/admin/css/style.css">
-
+        <link rel="stylesheet" href="http://localhost/AMI/assets/bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" href="http://localhost/AMI/assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     </head>
 <body>
@@ -57,22 +59,13 @@
           <a class="nav-link" href="?action=add_article">TPE</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Monnayeur</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Système Encaissement</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Solution Paiement</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Caméra de surveillance</a>
-        </li>
-        <li class="nav-item">
           <a class="nav-link text-danger" href="?action=edit_delete">Modifier ou supprimer</a>
-        </li>
-      </ul>
-    </div>
+        </li></ul>
+        <form method="POST" action="http://localhost/AMI/articles/logout.php">
+          <a href="http://localhost/AMI/articles/index.php">Déconnexion</a>
+        </form>
+      
+      </div>
   </div>
 </nav>
 <!-- Navbar Fin -->
@@ -80,14 +73,14 @@
 
 
         <!-- Popper min js -->
-        <script src="http://localhost/AMI/js/popper.min.js"></script>
+        <script src="http://localhost/AMI/assets/js/popper.min.js"></script>
         <!-- Bootstrap min js  -->
-        <script src="http://localhost/AMI/js/bootstrap.min.js"></script>
+        <script src="http://localhost/AMI/assets/js/bootstrap.min.js"></script>
         <!-- nivo slider pack js  -->
-        <script src="http://localhost/AMI/js/jquery.nivo.slider.pack.js"></script>
+        <script src="http://localhost/AMI/assets/js/jquery.nivo.slider.pack.js"></script>
         <!-- All plugins here -->
-        <script src="http://localhost/AMI/s/plugins.js"></script>
+        <script src="http://localhost/AMI/assets/s/plugins.js"></script>
         <!-- Main js  -->
-        <script src="http://localhost/AMI/js/main.js"></script>
+        <script src="http://localhost/AMI/assets/js/main.js"></script>
 </body>
 </html>

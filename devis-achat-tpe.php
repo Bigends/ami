@@ -29,17 +29,17 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Favicon -->
-        <link rel="shortcut icon" type="image/x-icon" href="images/icons/icon_logo2.png">
+        <link rel="shortcut icon" type="image/x-icon" href="http://localhost/AMI/assets/images/icons/icon_logo2.png">
 
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/font-awesome.min.css">
-        <link rel="stylesheet" href="css/ionicons.min.css">
-        <link rel="stylesheet" href="css/css-plugins-call.css">
-        <link rel="stylesheet" href="css/bundle3.css">
-        <link rel="stylesheet" href="css/main6.css">
-        <link rel="stylesheet" href="css/responsive.css">
-        <link rel="stylesheet" href="css/colors.css">
-        <link rel="stylesheet" href="css/map.css">
+        <link rel="stylesheet" href="http://localhost/AMI/assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://localhost/AMI/assets/css/font-awesome.min.css">
+        <link rel="stylesheet" href="http://localhost/AMI/assets/css/ionicons.min.css">
+        <link rel="stylesheet" href="http://localhost/AMI/assets/css/css-plugins-call.css">
+        <link rel="stylesheet" href="http://localhost/AMI/assets/css/bundle3.css">
+        <link rel="stylesheet" href="http://localhost/AMI/assets/css/main6.css">
+        <link rel="stylesheet" href="http://localhost/AMI/assets/css/responsive.css">
+        <link rel="stylesheet" href="http://localhost/AMI/assets/css/colors.css">
+        <link rel="stylesheet" href="http://localhost/AMI/assets/css/map.css">
     </head>
     <body>
 
@@ -54,7 +54,7 @@
                     <div class="row">
                         <div class="col-sm-12">
                             <nav class="woocommerce-breadcrumb">
-                                <a href="index.html">Accueil</a>
+                                <a href="http://localhost/AMI/index.php">Accueil</a>
                                 <span class="separator">/</span> Demande de devis
                             </nav>
                         </div>
@@ -72,7 +72,7 @@
                             <div class="col-sm-12 col-md-12 col-lg-6 col-xs-12">
                                 <div class="contact-form-inner">
                                     <h2>MA DEMANDE</h2>
-                                    <form action="mail.php" method="get">
+                                    <form action="http://localhost/AMI/mail.php" method="get">
                                         <div class="row">
                                             <div class="col">
                                                 <input type="text" class="form-control" placeholder="Prénom*" required>
@@ -134,16 +134,16 @@
 
 
         <!-- jQuery CDN -->
-         <script src="js/jquery-1.12.4.min.js"></script>   
+         <script src="http://localhost/AMI/assets/js/jquery-1.12.4.min.js"></script>   
          
         <!-- Popper min js -->
-        <script src="js/popper.min.js"></script>
+        <script src="http://localhost/AMI/assets/js/popper.min.js"></script>
         <!-- Bootstrap min js  -->
-        <script src="js/bootstrap.min.js"></script>
+        <script src="http://localhost/AMI/assets/js/bootstrap.min.js"></script>
         <!-- All plugins here -->
-        <script src="js/plugins.js"></script>
+        <script src="http://localhost/AMI/assets/js/plugins.js"></script>
         <!-- Main js  -->
-        <script src="js/main.js"></script>
+        <script src="http://localhost/AMI/assets/js/main.js"></script>
  
     </body>
 </html>

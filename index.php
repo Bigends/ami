@@ -30,16 +30,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Favicon -->
-        <link rel="shortcut icon" type="image/x-icon" href="images/icons/icon_logo2.png">
+        <link rel="shortcut icon" type="image/x-icon" href="http://localhost/AMI/assets/images/icons/icon_logo2.png">
 
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/font-awesome.min.css">
-        <link rel="stylesheet" href="css/ionicons.min.css">
-        <link rel="stylesheet" href="css/css-plugins-call.css">
-        <link rel="stylesheet" href="css/bundle3.css">
-        <link rel="stylesheet" href="css/main6.css">
-        <link rel="stylesheet" href="css/responsive.css">
-        <link rel="stylesheet" href="css/colors.css">
+        <link rel="stylesheet" href="http://localhost/AMI/assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://localhost/AMI/assets/css/font-awesome.min.css">
+        <link rel="stylesheet" href="http://localhost/AMI/assets/css/ionicons.min.css">
+        <link rel="stylesheet" href="http://localhost/AMI/assets/css/css-plugins-call.css">
+        <link rel="stylesheet" href="http://localhost/AMI/assets/css/bundle3.css">
+        <link rel="stylesheet" href="http://localhost/AMI/assets/css/main6.css">
+        <link rel="stylesheet" href="http://localhost/AMI/assets/css/responsive.css">
+        <link rel="stylesheet" href="http://localhost/AMI/assets/css/colors.css">
 
     </head>
 
@@ -65,8 +65,8 @@
                                 <!-- Carousel start -->
                                 <div class="slider-inner">
                                     <div id="mainSlider" class="nivoSlider nevo-slider">
-                                        <img src="images/slider/slider.jpg" alt="main slider" title="#htmlcaption1" />
-                                        <img src="images/slider/slider-2.jpg" alt="main slider" title="#htmlcaption2" />
+                                        <img src="http://localhost/AMI/assets/images/slider/slider.jpg" alt="main slider" title="#htmlcaption1" />
+                                        <img src="http://localhost/AMI/assets/images/slider/slider-2.jpg" alt="main slider" title="#htmlcaption2" />
                                     </div>
                                     <div id="htmlcaption1" class="nivo-html-caption slider-caption">
                                         <div class="slider-progress"></div>
@@ -85,14 +85,14 @@
                             <div class="slider-banner">
                                 <div class="slider-single-banner">
                                     <a href="shop.html">
-                                        <img src="images/banner/banner5.jpg" alt="Banner">
+                                        <img src="http://localhost/AMI/assets/images/banner/banner5.jpg" alt="Banner">
                                     </a>
                                 </div>
                             </div>
                             <div class="slider-banner">
                                 <div class="slider-single-banner">
                                     <a href="shop.html">
-                                        <img src="images/banner/banner6.jpg" alt="Banner">
+                                        <img src="http://localhost/AMI/assets/images/banner/banner6.jpg" alt="Banner">
                                     </a>
                                 </div>
                             </div>
@@ -170,7 +170,7 @@
                                             <div class="list-col4">
                                                 <div class="product-image">
                                                     <a href="#">
-                                                        <img src="images/maintenance/bg2.png" alt="">
+                                                        <img src="http://localhost/AMI/assets/images/maintenance/bg2.png" alt="">
                                                     </a>
                                                     <div class="quickviewbtn">
                                                         <a href="#" data-toggle="modal" data-target="#product_modal" data-original-title="Quick View"><i class="ion-eye"></i></a>
@@ -204,7 +204,7 @@
                                                 <div class="product-image">
                                                     <a href="">
                                                         <span class="onsale">Nouveau!</span>
-                                                        <img src="images/prog/logo3.png" alt="">
+                                                        <img src="http://localhost/AMI/assets/images/prog/logo3.png" alt="">
                                                     </a>
                                                     <div class="quickviewbtn">
                                                         <a href="#" data-toggle="modal" data-target="#product_modal" data-original-title="Quick View"><i class="ion-eye"></i></a>
@@ -242,7 +242,7 @@
                     <div class="row">
                         <div class="col-sm-12">
                             <a href="#">
-                                <img src="images/pub/pub2.png" alt="">
+                                <img src="http://localhost/AMI/assets/images/pub/pub2.png" alt="">
                             </a>
                         </div>
                     </div>
@@ -258,21 +258,21 @@
 
 
         <!-- jQuery CDN -->
-        <script src="js/jquery-1.12.4.min.js"></script>
+        <script src="http://localhost/AMI/assets/js/jquery-1.12.4.min.js"></script>
 
         <!-- jQuery Local -->
 
 
         <!-- Popper min js -->
-        <script src="js/popper.min.js"></script>
+        <script src="http://localhost/AMI/assets/js/popper.min.js"></script>
         <!-- Bootstrap min js  -->
-        <script src="js/bootstrap.min.js"></script>
+        <script src="http://localhost/AMI/assets/js/bootstrap.min.js"></script>
         <!-- nivo slider pack js  -->
-        <script src="js/jquery.nivo.slider.pack.js"></script>
+        <script src="http://localhost/AMI/assets/js/jquery.nivo.slider.pack.js"></script>
         <!-- All plugins here -->
-        <script src="js/plugins.js"></script>
+        <script src="http://localhost/AMI/assets/js/plugins.js"></script>
         <!-- Main js  -->
-        <script src="js/main.js"></script>
+        <script src="http://localhost/AMI/assets/js/main.js"></script>
 
 
 

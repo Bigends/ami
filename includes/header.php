@@ -29,7 +29,7 @@
                                                 <ul>
                                                     <li>
                                                         <a href="#">
-                                                            <img src="images/icons/en.png" alt="Anglais">
+                                                            <img src="http://localhost/AMI/assets/images/icons/en.png" alt="Anglais">
                                                             <span>Anglais</span>
                                                         </a>
                                                     </li>
@@ -54,7 +54,7 @@
                             <div class="col-xl-2 col-md-12">
                                 <!-- site-logo -->
                                 <div class="site-logo">
-                                    <a href="index.php"><img src="images/logo/amilogo3.png" alt="Nikado"></a>
+                                    <a href="index.php"><img src="http://localhost/AMI/assets/images/logo/amilogo3.png" alt="Nikado"></a>
                                 </div>
                             </div>
                             <div class="col-xl-6 col-md-12">
@@ -113,27 +113,27 @@
                                     <span class="categorie-title">Catégories</span>
                                     <nav>
                                         <ul class="categori-menu-list menu-hidden">
-                                            <li><a href="tpe.php"><span><img src="images/icons/1.png" alt="menu-icon"></span>T.P.E</a>
+                                            <li><a href="tpe.php"><span><img src="http://localhost/AMI/assets/images/icons/1.png" alt="menu-icon"></span>T.P.E</a>
                                                 <!-- categori Mega-Menu Start -->
 
                                                 <!-- categori Mega-Menu End -->
                                             </li>
-                                            <li><a href="shop.html"><span><img src="images/icons/2.png" alt="menu-icon"></span>Monnayeur</a>
+                                            <li><a href="shop.html"><span><img src="http://localhost/AMI/assets/images/icons/2.png" alt="menu-icon"></span>Monnayeur</a>
                                                 <!-- categori Mega-Menu Start -->
 
                                                 <!-- categori Mega-Menu End -->
                                             </li>
-                                            <li><a href="shop.html"><span><img src="images/icons/3.png" alt="menu-icon"></span>Système d'encaissement</a>
+                                            <li><a href="shop.html"><span><img src="http://localhost/AMI/assets/images/icons/3.png" alt="menu-icon"></span>Système d'encaissement</a>
                                                 <!-- categori Mega-Menu Start -->
 
                                                 <!-- categori Mega-Menu End -->
                                             </li>
-                                            <li><a href="shop.html"><span><img src="images/icons/4.png" alt="menu-icon"></span>Solution Paiement</a>
+                                            <li><a href="shop.html"><span><img src="http://localhost/AMI/assets/images/icons/4.png" alt="menu-icon"></span>Solution Paiement</a>
                                                 <!-- categori Mega-Menu Start -->
 
                                                 <!-- categori Mega-Menu End -->
                                             </li>
-                                            <li><a href="shop.html"><span><img src="images/icons/5.png" alt="menu-icon"></span>Caméra de surveillance</a>
+                                            <li><a href="shop.html"><span><img src="http://localhost/AMI/assets/images/icons/5.png" alt="menu-icon"></span>Caméra de surveillance</a>
                                                 <!-- categori Mega-Menu Start -->
 
                                                 <!-- categori Mega-Menu End -->
@@ -147,16 +147,16 @@
                                 <div class="main-menu">
                                     <nav>
                                         <ul>
-                                            <li class="current"><a href="index.php">Accueil</a>
+                                            <li class="current"><a href="http://localhost/AMI/index.php">Accueil</a>
                                             </li>
-                                            <li><a href="a-propos.php">À propos</a></li>
+                                            <li><a href="http://localhost/AMI/a-propos.php">À propos</a></li>
                                             <li><a href="">Demande de devis <i class="fa fa-angle-down"></i></a>
                                                 <ul class="submenu">
-                                                    <li><a href="devis-achat-tpe.php">Devis Achat T.P.E</a></li>
-                                                    <li><a href="devis-achat-caisse.php">Devis Achat Caisse</a></li>
+                                                    <li><a href="http://localhost/AMI/devis-achat-tpe.php">Devis Achat T.P.E</a></li>
+                                                    <li><a href="http://localhost/AMI/devis-achat-caisse.php">Devis Achat Caisse</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="contact.php">Contactez-nous</a></li>
+                                            <li><a href="http://localhost/AMI/contact.php">Contactez-nous</a></li>
                                         </ul>
                                     </nav>
                                 </div>
