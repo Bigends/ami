@@ -59,7 +59,19 @@
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link" href="?action=add_article">ARTICLES</a>
+            <a class="nav-link" href="?action=add_article">TPE</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="?action=add_monnayeur">MONNAYEUR</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="?action=add_encaissement">SYSTEME ENCAISSEMENT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="?action=add_paiement">SOLUTION PAIEMENT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="?action=add_camera">CAMERA DE SURVEILLANCE</a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-danger" href="?action=edit_delete">MODIFIER OU SUPPRIMER</a>

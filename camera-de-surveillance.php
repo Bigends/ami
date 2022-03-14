@@ -25,7 +25,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>AMI: Alpha Monétique Intéractif</title>
+        <title>AMI: Système d'Encaissement</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -119,7 +119,7 @@
                                             <!-- Début de l'article -->
                                             <?php
                                             require_once("articles/TPE/admin/includes/database.php");
-                                            $req=$db->prepare('SELECT *FROM tpe');
+                                            $req=$db->prepare('SELECT *FROM camera');
                                             $req->execute();
                                             while ($reponse=$req->fetch(PDO::FETCH_OBJ)) {?>
 

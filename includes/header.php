@@ -71,7 +71,7 @@
                                         </select>
                                     </div>
                                     <div class="header-search-form">
-                                        <form action="#">
+                                        <form method="" action="">
                                             <input type="text" name="search" placeholder="Recherche de produits...">
                                             <input type="submit" name="submit" value="Recherche">
                                         </form>
