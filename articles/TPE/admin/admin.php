@@ -14,7 +14,7 @@ require_once('includes/header.php');
 
                 // print_r($_FILES['fichier']);
 
-                $content_dir = 'images/';
+                $content_dir = 'assets/images/';
 
                 $tmp_file = $_FILES['fichier']['tmp_name'];
 
