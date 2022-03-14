@@ -78,23 +78,23 @@
                                     <ul class="product-categories">
                                         <li class="cat-item">
                                             <a href="http://localhost/AMI/tpe.php">T.P.E</a>
-                                            <span class="count">(5)</span>
+                                            <span class="count"></span>
                                         </li>
                                         <li class="cat-item">
                                             <a href="http://localhost/AMI/monnayeur.php">Monnayeur</a>
-                                            <span class="count">(4)</span>
+                                            <span class="count"></span>
                                         </li>
                                         <li class="cat-item">
                                             <a href="http://localhost/AMI/systeme-encaissement.php">Système Encaissement</a>
-                                            <span class="count">(12)</span>
+                                            <span class="count"></span>
                                         </li>
                                         <li class="cat-item">
                                             <a href="http://localhost/AMI/solution-paiement.php">Solution Paiement</a>
-                                            <span class="count">(13)</span>
+                                            <span class="count"></span>
                                         </li>
                                         <li class="cat-item">
                                             <a href="http://localhost/AMI/camera-de-surveillance.php">Caméra de surveillance</a>
-                                            <span class="count">(13)</span>
+                                            <span class="count"></span>
                                         </li>
                                     </ul>
                                 </div>
