@@ -101,14 +101,14 @@
 
                                 <div class="sidebar-single-banner">
                                     <a href="#">
-                                        <img src="http://localhost/AMI/assets/images/banner/shop-sidebar.jpg" alt="Banner">
+                                        <img src="http://localhost/AMI/assets/images/banner/pub-side.jpg" alt="Banner">
                                     </a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-xs-12 col-md-9 shop-content">
                             <div class="shop-banner">
-                                <img src="http://localhost/AMI/assets/images/banner/shop-category.jpg" alt="">
+                                <img src="http://localhost/AMI/assets/images/banner/tpe2.jpg" alt="">
                             </div>
                             <div class="product-toolbar">
 

@@ -101,7 +101,7 @@
 
                                 <div class="sidebar-single-banner">
                                     <a href="#">
-                                        <img src="http://localhost/AMI/assets/images/banner/shop-sidebar.jpg" alt="Banner">
+                                    <img src="http://localhost/AMI/assets/images/banner/pub-side.jpg" alt="Banner">
                                     </a>
                                 </div>
                             </div>
