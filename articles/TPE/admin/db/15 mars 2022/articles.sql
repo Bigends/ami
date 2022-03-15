@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1
--- Généré le : mar. 15 mars 2022 à 14:36
+-- Généré le : mar. 15 mars 2022 à 15:00
 -- Version du serveur : 10.4.22-MariaDB
 -- Version de PHP : 8.0.15
 
@@ -62,6 +62,27 @@ CREATE TABLE `camera` (
 
 INSERT INTO `camera` (`id`, `titre`, `contenu`, `images_name`, `price`) VALUES
 (1, 'CAMERA TEST', '0000-00-00', '1647270030.jpg', '5000€');
+
+-- --------------------------------------------------------
+
+--
+-- Structure de la table `centralise`
+--
+
+CREATE TABLE `centralise` (
+  `id` int(11) NOT NULL,
+  `titre` varchar(255) NOT NULL,
+  `contenu` text NOT NULL,
+  `images_name` varchar(100) NOT NULL,
+  `price` text NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Déchargement des données de la table `centralise`
+--
+
+INSERT INTO `centralise` (`id`, `titre`, `contenu`, `images_name`, `price`) VALUES
+(1, 'CENTRALISE TEST', 'SDFSDFSDFSDFFFFFFFFFFFFFFFFFFFFFF', '1647352699.jpg', '12354678987€');
 
 -- --------------------------------------------------------
 
@@ -200,6 +221,12 @@ ALTER TABLE `camera`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Index pour la table `centralise`
+--
+ALTER TABLE `centralise`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Index pour la table `encaissement`
 --
 ALTER TABLE `encaissement`
@@ -252,6 +279,12 @@ ALTER TABLE `caisse`
 -- AUTO_INCREMENT pour la table `camera`
 --
 ALTER TABLE `camera`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+
+--
+-- AUTO_INCREMENT pour la table `centralise`
+--
+ALTER TABLE `centralise`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
