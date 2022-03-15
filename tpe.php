@@ -156,7 +156,7 @@
                                                                 </span>
                                                                 <!-- Description Produit -->
                                                                 <div class="product-desc">
-                                                                    <p><?php echo substr($reponse->contenu, 0,100); ?>
+                                                                    <p><?php echo substr($reponse->contenu, 0,2500); ?>
                                                                     </p>
                                                                 </div>
                                                             </div>
