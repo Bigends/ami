@@ -138,7 +138,7 @@
 
                                                 <!-- categori Mega-Menu End -->
                                             </li>
-                                            <li><a href="http://localhost/AMI/caisse-enregistreuse.php"><span><img src="http://localhost/AMI/assets/images/icons/5.png" alt="menu-icon"></span>Caméra de surveillance</a>
+                                            <li><a href="http://localhost/AMI/caisse-enregistreuse.php"><span><img src="http://localhost/AMI/assets/images/icons/5.png" alt="menu-icon"></span>Caisse Enregistreuse</a>
                                                 <!-- categori Mega-Menu Start -->
 
                                                 <!-- categori Mega-Menu End -->
