@@ -76,8 +76,12 @@
                                 </div>
                                 <div class="widget-content">
                                     <ul class="product-categories">
+                                         <li class="cat-item">
+                                            <a href="http://localhost/AMI/tpe.php">T.P.E Autonome</a>
+                                            <span class="count"></span>
+                                        </li>
                                         <li class="cat-item">
-                                            <a href="http://localhost/AMI/tpe.php">T.P.E</a>
+                                            <a href="http://localhost/AMI/tpe-centralise.php">T.P.E Centralisé</a>
                                             <span class="count"></span>
                                         </li>
                                         <li class="cat-item">

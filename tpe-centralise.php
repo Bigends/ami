@@ -25,7 +25,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>AMI: TPE Autonome</title>
+        <title>AMI: TPE Centralisé</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -127,7 +127,7 @@
                                             <!-- Début de l'article -->
                                             <?php
                                             require_once("articles/TPE/admin/includes/database.php");
-                                            $req=$db->prepare('SELECT *FROM tpe');
+                                            $req=$db->prepare('SELECT *FROM centralise');
                                             $req->execute();
                                             while ($reponse=$req->fetch(PDO::FETCH_OBJ)) {?>
 

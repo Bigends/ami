@@ -113,12 +113,17 @@
                                     <span class="categorie-title">Catégories</span>
                                     <nav>
                                         <ul class="categori-menu-list menu-hidden">
-                                            <li><a href="http://localhost/AMI/tpe.php"><span><img src="http://localhost/AMI/assets/images/icons/1.png" alt="menu-icon"></span>T.P.E</a>
+                                            <li><a href="http://localhost/AMI/tpe.php"><span><img src="http://localhost/AMI/assets/images/icons/4.png" alt="menu-icon"></span>T.P.E Autonome</a>
                                                 <!-- categori Mega-Menu Start -->
 
                                                 <!-- categori Mega-Menu End -->
                                             </li>
-                                            <li><a href="http://localhost/AMI/monnayeur.php"><span><img src="http://localhost/AMI/assets/images/icons/2.png" alt="menu-icon"></span>Monnayeur</a>
+                                            <li><a href="http://localhost/AMI/tpe-centralise.php"><span><img src="http://localhost/AMI/assets/images/icons/4.png" alt="menu-icon"></span>T.P.E Centralisé</a>
+                                                <!-- categori Mega-Menu Start -->
+
+                                                <!-- categori Mega-Menu End -->
+                                            </li>
+                                            <li><a href="http://localhost/AMI/monnayeur.php"><span><img src="http://localhost/AMI/assets/images/icons/6.png" alt="menu-icon"></span>Monnayeur</a>
                                                 <!-- categori Mega-Menu Start -->
 
                                                 <!-- categori Mega-Menu End -->
@@ -138,7 +143,7 @@
 
                                                 <!-- categori Mega-Menu End -->
                                             </li>
-                                            <li><a href="http://localhost/AMI/caisse-enregistreuse.php"><span><img src="http://localhost/AMI/assets/images/icons/5.png" alt="menu-icon"></span>Caisse Enregistreuse</a>
+                                            <li><a href="http://localhost/AMI/caisse-enregistreuse.php"><span><img src="http://localhost/AMI/assets/images/icons/9.png" alt="menu-icon"></span>Caisse Enregistreuse</a>
                                                 <!-- categori Mega-Menu Start -->
 
                                                 <!-- categori Mega-Menu End -->
