@@ -146,22 +146,22 @@
                                         <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
                                             data-parent="#accordion">
                                             <div class="card-body">
-                                                Tous nos serveurs sont hébergés et sécurisés. Cela vousLe cloud vous
+                                                Tous nos serveurs sont hébergés et sécurisés. Cela vous
                                                 permet d'accéder aux applications et aux sites
                                                 web via des ressources cloud.
                                             </div>
                                         </div>
                                     </div>
                                     <div class="card">
-                                        <div class="card-header" id="headingThree">
+                                        <div class="card-header" id="headingFour">
                                             <h5 class="mb-0">
-                                                <a class="collapsed" data-toggle="collapse" data-target="#collapseThree"
-                                                    aria-expanded="false" aria-controls="collapseThree">
+                                                <a class="collapsed" data-toggle="collapse" data-target="#collapseFour"
+                                                    aria-expanded="false" aria-controls="collapseFour">
                                                     Performances
                                                 </a>
                                             </h5>
                                         </div>
-                                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
                                             data-parent="#accordion">
                                             <div class="card-body">
                                                 Nos services sont proposés sur des serveurs de dernière génération.
@@ -169,15 +169,15 @@
                                         </div>
                                     </div>
                                     <div class="card">
-                                        <div class="card-header" id="headingThree">
+                                        <div class="card-header" id="headingFive">
                                             <h5 class="mb-0">
-                                                <a class="collapsed" data-toggle="collapse" data-target="#collapseThree"
-                                                    aria-expanded="false" aria-controls="collapseThree">
+                                                <a class="collapsed" data-toggle="collapse" data-target="#collapseFive"
+                                                    aria-expanded="false" aria-controls="collapseFive">
                                                     Rapport qualité-prix
                                                 </a>
                                             </h5>
                                         </div>
-                                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                        <div id="collapseFive" class="collapse" aria-labelledby="headingFive"
                                             data-parent="#accordion">
                                             <div class="card-body">
                                                 Nous nous efforçons de vous offrir le meilleur rapport qualité-prix.
@@ -185,15 +185,15 @@
                                         </div>
                                     </div>
                                     <div class="card">
-                                        <div class="card-header" id="headingThree">
+                                        <div class="card-header" id="headingSix">
                                             <h5 class="mb-0">
-                                                <a class="collapsed" data-toggle="collapse" data-target="#collapseThree"
-                                                    aria-expanded="false" aria-controls="collapseThree">
+                                                <a class="collapsed" data-toggle="collapse" data-target="#collapseSix"
+                                                    aria-expanded="false" aria-controls="collapseSix">
                                                     Réactivité
                                                 </a>
                                             </h5>
                                         </div>
-                                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                        <div id="collapseSix" class="collapse" aria-labelledby="headingSix"
                                             data-parent="#accordion">
                                             <div class="card-body">
                                                 La plupart de nos servirces sont livrés automatiquement.
@@ -201,15 +201,15 @@
                                         </div>
                                     </div>
                                     <div class="card">
-                                        <div class="card-header" id="headingThree">
+                                        <div class="card-header" id="headingSeven">
                                             <h5 class="mb-0">
-                                                <a class="collapsed" data-toggle="collapse" data-target="#collapseThree"
-                                                    aria-expanded="false" aria-controls="collapseThree">
+                                                <a class="collapsed" data-toggle="collapse" data-target="#collapseSeven"
+                                                    aria-expanded="false" aria-controls="collapseSeven">
                                                     Support
                                                 </a>
                                             </h5>
                                         </div>
-                                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                        <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven"
                                             data-parent="#accordion">
                                             <div class="card-body">
                                             Notre service client est disponible 7 jours sur 7 afin de vous conseiller avant vos achats et vous aider après ceux-ci.
