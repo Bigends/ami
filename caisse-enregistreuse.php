@@ -25,7 +25,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>AMI: Monnayeur</title>
+        <title>AMI: Caisse Enregistreuse</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -112,7 +112,7 @@
                         </div>
                         <div class="col-xs-12 col-md-9 shop-content">
                             <div class="shop-banner">
-                                <img src="http://localhost/AMI/assets/images/banner/cashdro.jpg" alt="">
+                                <img src="http://localhost/AMI/assets/images/banner/shop-category.jpg" alt="">
                             </div>
                             <div class="product-toolbar">
 
@@ -123,7 +123,7 @@
                                             <!-- Début de l'article -->
                                             <?php
                                             require_once("articles/TPE/admin/includes/database.php");
-                                            $req=$db->prepare('SELECT *FROM monnayeur');
+                                            $req=$db->prepare('SELECT *FROM caisse');
                                             $req->execute();
                                             while ($reponse=$req->fetch(PDO::FETCH_OBJ)) {?>
 

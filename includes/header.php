@@ -113,27 +113,32 @@
                                     <span class="categorie-title">Catégories</span>
                                     <nav>
                                         <ul class="categori-menu-list menu-hidden">
-                                            <li><a href="tpe.php"><span><img src="http://localhost/AMI/assets/images/icons/1.png" alt="menu-icon"></span>T.P.E</a>
+                                            <li><a href="http://localhost/AMI/tpe.php"><span><img src="http://localhost/AMI/assets/images/icons/1.png" alt="menu-icon"></span>T.P.E</a>
                                                 <!-- categori Mega-Menu Start -->
 
                                                 <!-- categori Mega-Menu End -->
                                             </li>
-                                            <li><a href="shop.html"><span><img src="http://localhost/AMI/assets/images/icons/2.png" alt="menu-icon"></span>Monnayeur</a>
+                                            <li><a href="http://localhost/AMI/monnayeur.php"><span><img src="http://localhost/AMI/assets/images/icons/2.png" alt="menu-icon"></span>Monnayeur</a>
                                                 <!-- categori Mega-Menu Start -->
 
                                                 <!-- categori Mega-Menu End -->
                                             </li>
-                                            <li><a href="shop.html"><span><img src="http://localhost/AMI/assets/images/icons/3.png" alt="menu-icon"></span>Système d'encaissement</a>
+                                            <li><a href="http://localhost/AMI/systeme-encaissement.php"><span><img src="http://localhost/AMI/assets/images/icons/3.png" alt="menu-icon"></span>Système d'encaissement</a>
                                                 <!-- categori Mega-Menu Start -->
 
                                                 <!-- categori Mega-Menu End -->
                                             </li>
-                                            <li><a href="shop.html"><span><img src="http://localhost/AMI/assets/images/icons/4.png" alt="menu-icon"></span>Solution Paiement</a>
+                                            <li><a href="http://localhost/AMI/solution-paiement.php"><span><img src="http://localhost/AMI/assets/images/icons/4.png" alt="menu-icon"></span>Solution Paiement</a>
                                                 <!-- categori Mega-Menu Start -->
 
                                                 <!-- categori Mega-Menu End -->
                                             </li>
-                                            <li><a href="shop.html"><span><img src="http://localhost/AMI/assets/images/icons/5.png" alt="menu-icon"></span>Caméra de surveillance</a>
+                                            <li><a href="http://localhost/AMI/camera-de-surveillance.php"><span><img src="http://localhost/AMI/assets/images/icons/5.png" alt="menu-icon"></span>Caméra de surveillance</a>
+                                                <!-- categori Mega-Menu Start -->
+
+                                                <!-- categori Mega-Menu End -->
+                                            </li>
+                                            <li><a href="http://localhost/AMI/caisse-enregistreuse.php"><span><img src="http://localhost/AMI/assets/images/icons/5.png" alt="menu-icon"></span>Caméra de surveillance</a>
                                                 <!-- categori Mega-Menu Start -->
 
                                                 <!-- categori Mega-Menu End -->

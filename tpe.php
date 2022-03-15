@@ -93,7 +93,11 @@
                                             <span class="count"></span>
                                         </li>
                                         <li class="cat-item">
-                                            <a href="http://localhost/AMI/camera-de-surveillance.php">Caméra de surveillance</a>
+                                            <a href="http://localhost/AMI/camera-de-surveillance.php">Caméra de Surveillance</a>
+                                            <span class="count"></span>
+                                        </li>
+                                        <li class="cat-item">
+                                            <a href="http://localhost/AMI/caisse-enregistreuse.php">Caisse Enregistreuse</a>
                                             <span class="count"></span>
                                         </li>
                                     </ul>
