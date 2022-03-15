@@ -68,7 +68,7 @@
                     <div class="row">
                         <div class="col-sm-12">
                             <img src="http://localhost/AMI/assets/images/banner/about3.png" class="img-fluid"
-                                alt="Alpha Monétique Intéractif">
+                                alt="Alpha Monétique Intéractif"></img>
                         </div>
                     </div>
                 </div>
@@ -110,7 +110,8 @@
                                         <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
                                             data-parent="#accordion">
                                             <div class="card-body">
-                                                Nos matériels sont vendus NEUF, permettant l'encaissement, le passage, la sécurisation,
+                                                Nos matériels sont vendus NEUF, permettant l'encaissement, le passage,
+                                                la sécurisation,
                                                 le suivis et la centralisation.
                                             </div>
                                         </div>
@@ -127,8 +128,9 @@
                                         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
                                             data-parent="#accordion">
                                             <div class="card-body">
-                                                Pour vous aidez au mieux, nous vous proposons une location de T.P.E avec un service technique disponible 
-                                                sur téléphone (0594 30 46 67), pour vous accompagner au mieux
+                                                Pour vous aidez au mieux, nous vous proposons une location de T.P.E avec
+                                                un service technique disponible
+                                                sur téléphone (0594 30 46 67).
                                             </div>
                                         </div>
                                     </div>
@@ -137,26 +139,80 @@
                                             <h5 class="mb-0">
                                                 <a class="collapsed" data-toggle="collapse" data-target="#collapseThree"
                                                     aria-expanded="false" aria-controls="collapseThree">
-                                                    Vestibulum a lorem placerat, porttitor urna vel?
+                                                    Cloud
                                                 </a>
                                             </h5>
                                         </div>
                                         <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
                                             data-parent="#accordion">
                                             <div class="card-body">
-                                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
-                                                terry richardson ad squid. 3 wolf moon officia aute,
-                                                non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt
-                                                laborum eiusmod. Brunch
-                                                3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin
-                                                coffee nulla assumenda
-                                                shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes
-                                                anderson cred nesciunt
-                                                sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
-                                                occaecat craft beer
-                                                farm-to-table, raw denim aesthetic synth nesciunt you probably haven't
-                                                heard of them
-                                                accusamus labore sustainable VHS.
+                                                Tous nos serveurs sont hébergés et sécurisés. Cela vousLe cloud vous
+                                                permet d'accéder aux applications et aux sites
+                                                web via des ressources cloud.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-header" id="headingThree">
+                                            <h5 class="mb-0">
+                                                <a class="collapsed" data-toggle="collapse" data-target="#collapseThree"
+                                                    aria-expanded="false" aria-controls="collapseThree">
+                                                    Performances
+                                                </a>
+                                            </h5>
+                                        </div>
+                                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                            data-parent="#accordion">
+                                            <div class="card-body">
+                                                Nos services sont proposés sur des serveurs de dernière génération.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-header" id="headingThree">
+                                            <h5 class="mb-0">
+                                                <a class="collapsed" data-toggle="collapse" data-target="#collapseThree"
+                                                    aria-expanded="false" aria-controls="collapseThree">
+                                                    Rapport qualité-prix
+                                                </a>
+                                            </h5>
+                                        </div>
+                                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                            data-parent="#accordion">
+                                            <div class="card-body">
+                                                Nous nous efforçons de vous offrir le meilleur rapport qualité-prix.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-header" id="headingThree">
+                                            <h5 class="mb-0">
+                                                <a class="collapsed" data-toggle="collapse" data-target="#collapseThree"
+                                                    aria-expanded="false" aria-controls="collapseThree">
+                                                    Réactivité
+                                                </a>
+                                            </h5>
+                                        </div>
+                                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                            data-parent="#accordion">
+                                            <div class="card-body">
+                                                La plupart de nos servirces sont livrés automatiquement.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-header" id="headingThree">
+                                            <h5 class="mb-0">
+                                                <a class="collapsed" data-toggle="collapse" data-target="#collapseThree"
+                                                    aria-expanded="false" aria-controls="collapseThree">
+                                                    Support
+                                                </a>
+                                            </h5>
+                                        </div>
+                                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                            data-parent="#accordion">
+                                            <div class="card-body">
+                                            Notre service client est disponible 7 jours sur 7 afin de vous conseiller avant vos achats et vous aider après ceux-ci.
                                             </div>
                                         </div>
                                     </div>
@@ -166,38 +222,39 @@
                         </div>
                     </div>
                 </div>
-
-                <!--Footer Début-->
-                <?php include 'includes/footer.php'; ?>
-                <!--Footer Fin-->
             </div>
-            <!-- Body main wrapper end -->
 
-            <!-- jQuery CDN -->
-            <script src="http://localhost/AMI/assets/js/jquery-1.12.4.min.js"></script>
+            <!--Footer Début-->
+            <?php include 'includes/footer.php'; ?>
+            <!--Footer Fin-->
+        </div>
+        <!-- Body main wrapper end -->
 
-            <!-- jQuery Local -->
+        <!-- jQuery CDN -->
+        <script src="http://localhost/AMI/assets/js/jquery-1.12.4.min.js"></script>
 
-            <!-- Popper min js -->
-            <script src="http://localhost/AMI/assets/js/popper.min.js"></script>
-            <!-- Bootstrap min js  -->
-            <script src="http://localhost/AMI/assets/js/bootstrap.min.js"></script>
-            <!-- All plugins here -->
-            <script src="http://localhost/AMI/assets/js/plugins.js"></script>
-            <!-- Main js  -->
-            <script src="http://localhost/AMI/assets/js/main.js"></script>
+        <!-- jQuery Local -->
 
-            <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-            <script>
-                window.ga = function() {
-                    ga.q.push(arguments)
-                };
-                ga.q = [];
-                ga.l = +new Date;
-                ga('create', 'UA-XXXXX-Y', 'auto');
-                ga('send', 'pageview')
-            </script>
-            <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+        <!-- Popper min js -->
+        <script src="http://localhost/AMI/assets/js/popper.min.js"></script>
+        <!-- Bootstrap min js  -->
+        <script src="http://localhost/AMI/assets/js/bootstrap.min.js"></script>
+        <!-- All plugins here -->
+        <script src="http://localhost/AMI/assets/js/plugins.js"></script>
+        <!-- Main js  -->
+        <script src="http://localhost/AMI/assets/js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+        <script>
+            window.ga = function() {
+                ga.q.push(arguments)
+            };
+            ga.q = [];
+            ga.l = +new Date;
+            ga('create', 'UA-XXXXX-Y', 'auto');
+            ga('send', 'pageview')
+        </script>
+        <script src="https://www.google-analytics.com/analytics.js" async defer></script>
     </body>
 
     </html>
