@@ -137,7 +137,7 @@
 
                                                         <div class="list-col4">
                                                             <div class="product-image">
-                                                                <a href="devis-achat-tpe.php">
+                                                                <a href="http://localhost/AMI/contact.php">
                                                                     <!-- Image Produit -->
                                                                     <img src="http://localhost/AMI/articles/TPE/admin/assets/images/<?php echo $reponse->images_name; ?>"
                                                                         alt="">
@@ -148,7 +148,7 @@
                                                             <div class="product-info">
                                                                 <!-- Titre Produit -->
                                                                 <h2><a
-                                                                        href="single-product.html"><?php echo $reponse->titre; ?></a>
+                                                                        href="http://localhost/AMI/contact.php"><?php echo $reponse->titre; ?></a>
                                                                 </h2>
                                                                 <!-- Prix Produit -->
                                                                 <span class="price">
@@ -162,7 +162,7 @@
                                                             </div>
                                                             <div class="actions-wrapper"><br><br>
                                                                 <div class="add-to-cart">
-                                                                    <a href="devis-achat-tpe.php">Devis</a>
+                                                                    <a href="http://localhost/AMI/contact.php">Devis</a>
                                                                 </div>
                                                                 <div class="star-actions">
                                                                     <ul class="actions">
