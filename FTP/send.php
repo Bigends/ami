@@ -31,7 +31,6 @@ if(isset($_POST['submit']))
     ';
 
     mail("contact@alphamonetique.com", "CONTACT - AMI", $message, $header);
-    header("Location: contact.php?send");
     $msg="Votre message a bien été envoyé !";
   }
 }
@@ -66,7 +65,7 @@ if(isset($_POST['submit']))
   </div>
   <div class="card-body">
     <img src="https://alphamonetique.com/assets/images/verification.png" alt=""><br><br>
-    <a href="#" class="btn btn-primary">Retour au site</a>
+    <a href="https://alphamonetique.com" class="btn btn-primary">Retour au site</a>
   </div>
 </div>
 <!-- Top Header Done -->
