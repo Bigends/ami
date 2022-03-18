@@ -160,11 +160,7 @@
                                             <li class="current"><a href="https://alphamonetique.com/index.php">Accueil</a>
                                             </li>
                                             <li><a href="https://alphamonetique.com/a-propos.php">À propos</a></li>
-                                            <li><a href="">Demande de devis <i class="fa fa-angle-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="https://alphamonetique.com/devis-achat-tpe.php">Devis Achat T.P.E</a></li>
-                                                    <li><a href="https://alphamonetique.com/devis-achat-caisse.php">Devis Achat Caisse</a></li>
-                                                </ul>
+                                            <li><a href="https://alphamonetique.com/devis.php">Demande de devis</a>
                                             </li>
                                             <li><a href="https://alphamonetique.com/contact.php">Contactez-nous</a></li>
                                         </ul>

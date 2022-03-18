@@ -56,7 +56,7 @@
                     <div class="col-sm-12">
                         <nav class="woocommerce-breadcrumb">
                             <a href="https://alphamonetique.com/index.php">Accueil</a>
-                            <span class="separator">/</span> Contactez-nous
+                            <span class="separator">/</span> Devis
                         </nav>
                     </div>
                 </div>
@@ -65,17 +65,6 @@
         <!-- Breadcrumbs End -->
         <!-- Contact page content -->
         <div class="contact-page-area">
-            <!-- contact page map -->
-            <div class="img-fluid">
-                <!-- Google Map Start -->
-                <div class="map-responsive">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d15901.064803664523!2d-52.28979592314194!3d4.895040443133639!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x8d123d704f93bdb3%3A0xe352261a89086ec8!2salpha%20mon%C3%A9tique!3m2!1d4.8978945!2d-52.273429099999994!5e0!3m2!1sfr!2sfr!4v1646746154854!5m2!1sfr!2sfr"
-                        width="600" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                </div>
-                <!-- Google Map End -->
-            </div>
-            <!-- contact page map -->
             <!-- contact form area -->
             <div class="contact-form-area">
                 <div class="container-fluid">
@@ -121,7 +110,7 @@
                         </div>
                         <div class="col-sm-12 col-md-12 col-lg-6 col-xs-12">
                             <div class="contact-address-area">
-                                <h2>CONTACTEZ-NOUS</h2>
+                                <h2>Infos DEVIS</h2>
                                 <p>N'hésitez pas à nous détailler votre demande.</p>
                                 <ul>
                                     <li>

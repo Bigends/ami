@@ -30,16 +30,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Favicon -->
-        <link rel="shortcut icon" type="image/x-icon" href="http://localhost/AMI/assets/images/icons/icon_logo2.png">
+        <link rel="shortcut icon" type="image/x-icon" href="https://alphamonetique.com/assets/images/icons/icon_logo2.png">
 
-        <link rel="stylesheet" href="http://localhost/AMI/assets/css/bootstrap.min.css">
-        <link rel="stylesheet" href="http://localhost/AMI/assets/css/font-awesome.min.css">
-        <link rel="stylesheet" href="http://localhost/AMI/assets/css/ionicons.min.css">
-        <link rel="stylesheet" href="http://localhost/AMI/assets/css/css-plugins-call.css">
-        <link rel="stylesheet" href="http://localhost/AMI/assets/css/bundle3.css">
-        <link rel="stylesheet" href="http://localhost/AMI/assets/css/main6.css">
-        <link rel="stylesheet" href="http://localhost/AMI/assets/css/responsive.css">
-        <link rel="stylesheet" href="http://localhost/AMI/assets/css/colors.css">
+        <link rel="stylesheet" href="https://alphamonetique.com/assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://alphamonetique.com/assets/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://alphamonetique.com/assets/css/ionicons.min.css">
+        <link rel="stylesheet" href="https://alphamonetique.com/assets/css/css-plugins-call.css">
+        <link rel="stylesheet" href="https://alphamonetique.com/assets/css/bundle3.css">
+        <link rel="stylesheet" href="https://alphamonetique.com/assets/css/main6.css">
+        <link rel="stylesheet" href="https://alphamonetique.com/assets/css/responsive.css">
+        <link rel="stylesheet" href="https://alphamonetique.com/assets/css/colors.css">
 
     </head>
 
@@ -77,46 +77,61 @@
                                 <div class="widget-content">
                                     <ul class="product-categories">
                                         <li class="cat-item">
-                                            <a href="http://localhost/AMI/tpe.php">T.P.E Autonome</a>
+                                            <a href="https://alphamonetique.com/tpe.php">T.P.E Autonome</a>
                                             <span class="count"></span>
                                         </li>
                                         <li class="cat-item">
-                                            <a href="http://localhost/AMI/tpe-centralise.php">T.P.E Centralisé</a>
+                                            <a href="https://alphamonetique.com/tpe-centralise.php">T.P.E Centralisé</a>
                                             <span class="count"></span>
                                         </li>
                                         <li class="cat-item">
-                                            <a href="http://localhost/AMI/monnayeur.php">Monnayeur</a>
+                                            <a href="https://alphamonetique.com/monnayeur.php">Monnayeur</a>
                                             <span class="count"></span>
                                         </li>
                                         <li class="cat-item">
-                                            <a href="http://localhost/AMI/systeme-encaissement.php">Système Encaissement</a>
+                                            <a href="https://alphamonetique.com/systeme-encaissement.php">Système Encaissement</a>
+                                            <span class="count"></span>
+                                        </li>
+                                        <!--
+                                        <li class="cat-item">
+                                            <a href="https://alphamonetique.com/solution-paiement.php">Solution Paiement</a>
+                                            <span class="count"></span>
+                                        </li>
+                                        -->
+                                        <li class="cat-item">
+                                            <a href="https://alphamonetique.com/camera-de-surveillance.php">Caméra de surveillance</a>
                                             <span class="count"></span>
                                         </li>
                                         <li class="cat-item">
-                                            <a href="http://localhost/AMI/solution-paiement.php">Solution Paiement</a>
-                                            <span class="count"></span>
-                                        </li>
-                                        <li class="cat-item">
-                                            <a href="http://localhost/AMI/camera-de-surveillance.php">Caméra de surveillance</a>
-                                            <span class="count"></span>
-                                        </li>
-                                        <li class="cat-item">
-                                            <a href="http://localhost/AMI/caisse-enregistreuse.php">Caisse Enregistreuse</a>
+                                            <a href="https://alphamonetique.com/caisse-enregistreuse.php">Caisse Enregistreuse</a>
                                             <span class="count"></span>
                                         </li>
                                     </ul>
                                 </div>
 
-                                <div class="sidebar-single-banner">
-                                    <a href="#">
-                                    <img src="http://localhost/AMI/assets/images/banner/pub-side.jpg" alt="Banner">
-                                    </a>
+                                <!-- Images banner -->
+                                <div class="widget-content">
+                                    <ul class="product-categories">
+                                        <a href="https://alphamonetique.com/tpe-centralise.php">
+                                           <img src="https://alphamonetique.com/assets/images/pub/tpe.png" alt="Banner">
+                                        </a>
+                                    </ul>
                                 </div>
+
+                                <div class="widget-content">
+                                    <ul class="product-categories">
+                                        <a href="https://alphamonetique.com/monnayeur.php">
+                                           <img src="https://alphamonetique.com/assets/images/pub/cash.jpg" alt="Banner">
+                                        </a>
+                                    </ul>
+                                </div>
+                                <!-- Images banner -->
+
                             </div>
                         </div>
                         <div class="col-xs-12 col-md-9 shop-content">
                             <div class="shop-banner">
-                                <img src="http://localhost/AMI/assets/images/banner/cashdro.jpg" alt="">
+                                <img src="https://alphamonetique.com/assets/images/banner/cashdro.jpg" alt="">
                             </div>
                             <div class="product-toolbar">
 
@@ -137,9 +152,9 @@
 
                                                         <div class="list-col4">
                                                             <div class="product-image">
-                                                                <a href="http://localhost/AMI/contact.php">
+                                                                <a href="https://alphamonetique.com/contact.php">
                                                                     <!-- Image Produit -->
-                                                                    <img src="http://localhost/AMI/articles/TPE/admin/assets/images/<?php echo $reponse->images_name; ?>"
+                                                                    <img src="https://alphamonetique.com/articles/TPE/admin/assets/images/<?php echo $reponse->images_name; ?>"
                                                                         alt="">
                                                                 </a>
                                                             </div>
@@ -148,7 +163,7 @@
                                                             <div class="product-info">
                                                                 <!-- Titre Produit -->
                                                                 <h2><a
-                                                                        href="http://localhost/AMI/contact.php"><?php echo $reponse->titre; ?></a>
+                                                                        href="https://alphamonetique.com/contact.php"><?php echo $reponse->titre; ?></a>
                                                                 </h2>
                                                                 <!-- Prix Produit -->
                                                                 <span class="price">
@@ -162,7 +177,7 @@
                                                             </div>
                                                             <div class="actions-wrapper"><br><br>
                                                                 <div class="add-to-cart">
-                                                                    <a href="http://localhost/AMI/contact.php">Devis</a>
+                                                                    <a href="https://alphamonetique.com/contact.php">Devis</a>
                                                                 </div>
                                                                 <div class="star-actions">
                                                                     <ul class="actions">
@@ -213,18 +228,18 @@
         <!-- Body main wrapper end -->
 
         <!-- jQuery CDN -->
-        <script src="http://localhost/AMI/assets/js/jquery-1.12.4.min.js"></script>
+        <script src="https://alphamonetique.com/assets/js/jquery-1.12.4.min.js"></script>
 
         <!-- jQuery Local -->
 
         <!-- Popper min js -->
-        <script src="http://localhost/AMI/assets/js/popper.min.js"></script>
+        <script src="https://alphamonetique.com/assets/js/popper.min.js"></script>
         <!-- Bootstrap min js  -->
-        <script src="http://localhost/AMI/assets/js/bootstrap.min.js"></script>
+        <script src="https://alphamonetique.com/assets/js/bootstrap.min.js"></script>
         <!-- All plugins here -->
-        <script src="http://localhost/AMI/assets/js/plugins.js"></script>
+        <script src="https://alphamonetique.com/assets/js/plugins.js"></script>
         <!-- Main js  -->
-        <script src="http://localhost/AMI/assets/js/main.js"></script>
+        <script src="https://alphamonetique.com/assets/js/main.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
         <script>

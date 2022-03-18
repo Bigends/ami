@@ -30,16 +30,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Favicon -->
-        <link rel="shortcut icon" type="image/x-icon" href="http://localhost/AMI/assets/images/icons/icon_logo2.png">
+        <link rel="shortcut icon" type="image/x-icon" href="https://alphamonetique.com/assets/images/icons/icon_logo2.png">
 
-        <link rel="stylesheet" href="http://localhost/AMI/assets/css/bootstrap.min.css">
-        <link rel="stylesheet" href="http://localhost/AMI/assets/css/font-awesome.min.css">
-        <link rel="stylesheet" href="http://localhost/AMI/assets/css/ionicons.min.css">
-        <link rel="stylesheet" href="http://localhost/AMI/assets/css/css-plugins-call.css">
-        <link rel="stylesheet" href="http://localhost/AMI/assets/css/bundle3.css">
-        <link rel="stylesheet" href="http://localhost/AMI/assets/css/main6.css">
-        <link rel="stylesheet" href="http://localhost/AMI/assets/css/responsive.css">
-        <link rel="stylesheet" href="http://localhost/AMI/assets/css/colors.css">
+        <link rel="stylesheet" href="https://alphamonetique.com/assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://alphamonetique.com/assets/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://alphamonetique.com/assets/css/ionicons.min.css">
+        <link rel="stylesheet" href="https://alphamonetique.com/assets/css/css-plugins-call.css">
+        <link rel="stylesheet" href="https://alphamonetique.com/assets/css/bundle3.css">
+        <link rel="stylesheet" href="https://alphamonetique.com/assets/css/main6.css">
+        <link rel="stylesheet" href="https://alphamonetique.com/assets/css/responsive.css">
+        <link rel="stylesheet" href="https://alphamonetique.com/assets/css/colors.css">
 
     </head>
 
@@ -51,6 +51,21 @@
         <!-- Header Start -->
         <?php include 'includes/header.php';?>
         <!-- Header Done -->
+
+                   <!-- Breadcrumbs -->
+                   <div class="breadcrumbs-container">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <nav class="woocommerce-breadcrumb">
+                                <a href="https://alphamonetique.com/tpe.php">PRODUITS
+                                <span class="separator">/</span> Découvrez nos produits
+                            </nav></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Breadcrumbs End -->
 
             <!-- Slider area -->
             <div class="slider-area">
@@ -65,8 +80,8 @@
                                 <!-- Carousel start -->
                                 <div class="slider-inner">
                                     <div id="mainSlider" class="nivoSlider nevo-slider">
-                                        <img src="http://localhost/AMI/assets/images/slider/slider.jpg" alt="main slider" title="#htmlcaption1" />
-                                        <img src="http://localhost/AMI/assets/images/slider/slider-2.jpg" alt="main slider" title="#htmlcaption2" />
+                                        <a href="https://alphamonetique.com/tpe.php"><img src="https://alphamonetique.com/assets/images/slider/slider.jpg" alt="main slider" title="#htmlcaption1" /></a>
+                                        <a href="https://alphamonetique.com/tpe.php"><img src="https://alphamonetique.com/assets/images/slider/slider-2.jpg" alt="main slider" title="#htmlcaption2" /></a>
                                     </div>
                                     <div id="htmlcaption1" class="nivo-html-caption slider-caption">
                                         <div class="slider-progress"></div>
@@ -84,15 +99,15 @@
                         <div class="slider-banner-area col-sm-12">
                             <div class="slider-banner">
                                 <div class="slider-single-banner">
-                                    <a href="shop.html">
-                                        <img src="http://localhost/AMI/assets/images/banner/banner5.jpg" alt="Banner">
+                                    <a href="https://alphamonetique.com/tpe-centralise.php">
+                                        <img src="https://alphamonetique.com/assets/images/banner/banner5.jpg" alt="Banner">
                                     </a>
                                 </div>
                             </div>
                             <div class="slider-banner">
                                 <div class="slider-single-banner">
-                                    <a href="shop.html">
-                                        <img src="http://localhost/AMI/assets/images/banner/banner6.jpg" alt="Banner">
+                                    <a href="https://alphamonetique.com/caisse-enregistreuse.php">
+                                        <img src="https://alphamonetique.com/assets/images/banner/banner6.jpg" alt="Banner">
                                     </a>
                                 </div>
                             </div>
@@ -170,7 +185,7 @@
                                             <div class="list-col4">
                                                 <div class="product-image">
                                                     <a href="#">
-                                                        <img src="http://localhost/AMI/assets/images/maintenance/bg2.png" alt="">
+                                                        <img src="https://alphamonetique.com/assets/images/maintenance/bg2.png" alt="">
                                                     </a>
                                                     <div class="quickviewbtn">
                                                         <a href="#" data-toggle="modal" data-target="#product_modal" data-original-title="Quick View"><i class="ion-eye"></i></a>
@@ -184,8 +199,8 @@
                                                         Pro
                                                     </span>
                                                     <div class="product-desc">
-                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco,Proin lectus
-                                                            ipsum, gravida et mattis vulputate, tristique ut lectus</p>
+                                                        <p>Grace à nos contrats de maintenance, nous garantissons l'entretien et le maintien du bon fonctionnement de vos appareils (TPE, Cashdrow, Caisse Electronique), quels qu'ils soient. 
+                                                           Au moins une fois par mois, par date établie ou prise de rendez-vous, nos techniciens se rendront dans vos enseignes pour y effectuer toute intervention nécessaire garantissant l'efficacité de vos produits achetés chez A.M.I.</p>
                                                     </div>
                                                     <div class="pack">
                                                         <button>Découvrir</button>
@@ -202,24 +217,24 @@
                                         <div class="product-wrapper listview">
                                             <div class="list-col4">
                                                 <div class="product-image">
-                                                    <a href="">
+                                                    <a href="https://alphamonetique.com/systeme-encaissement.php">
                                                         <span class="onsale">Nouveau!</span>
-                                                        <img src="http://localhost/AMI/assets/images/prog/logo3.png" alt="">
+                                                        <img src="https://alphamonetique.com/assets/images/prog/logo3.png" alt="">
                                                     </a>
                                                     <div class="quickviewbtn">
-                                                        <a href="#" data-toggle="modal" data-target="#product_modal" data-original-title="Quick View"><i class="ion-eye"></i></a>
+                                                        <a href="https://alphamonetique.com/systeme-encaissement.php" data-toggle="modal" data-target="#product_modal" data-original-title="Quick View"><i class="ion-eye"></i></a>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="list-col8">
                                                 <div class="product-info">
-                                                    <h2><a href="single-product.html">PROGRAMME</a></h2>
+                                                    <h2><a href="https://alphamonetique.com/systeme-encaissement.php">PROGRAMME</a></h2>
                                                     <span class="price">
                                                         <del></del>Logiciel de caisse
                                                     </span>
                                                     <div class="product-desc">
-                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco,Proin lectus
-                                                            ipsum, gravida et mattis vulputate, tristique ut lectus</p>
+                                                        <p>Avec une gamme variée de produits que nous proposons à nos clients vient plusieurs logiciels adaptés à leur type de commerce. Pour s'assurer du confort d'utilisation, nous nous assurons, auprès de nos programmateurs ainsi que de nos collaborateurs, que le logiciel installé sur nos caisses réponde au mieux à leurs demandes.
+                                                        Vous pourrez retrouver une variété de logiciels sur nos caisses PAX ainsi que le logiciel caisse Pi.</p>
                                                     </div>
                                                     <div class="pack">
                                                         <button>Découvrir</button>
@@ -242,7 +257,7 @@
                     <div class="row">
                         <div class="col-sm-12">
                             <a href="#">
-                                <img src="http://localhost/AMI/assets/images/pub/pub2.png" alt="">
+                                <img src="https://alphamonetique.com/assets/images/pub/pub2.png" alt="">
                             </a>
                         </div>
                     </div>
@@ -258,21 +273,21 @@
 
 
         <!-- jQuery CDN -->
-        <script src="http://localhost/AMI/assets/js/jquery-1.12.4.min.js"></script>
+        <script src="https://alphamonetique.com/assets/js/jquery-1.12.4.min.js"></script>
 
         <!-- jQuery Local -->
 
 
         <!-- Popper min js -->
-        <script src="http://localhost/AMI/assets/js/popper.min.js"></script>
+        <script src="https://alphamonetique.com/assets/js/popper.min.js"></script>
         <!-- Bootstrap min js  -->
-        <script src="http://localhost/AMI/assets/js/bootstrap.min.js"></script>
+        <script src="https://alphamonetique.com/assets/js/bootstrap.min.js"></script>
         <!-- nivo slider pack js  -->
-        <script src="http://localhost/AMI/assets/js/jquery.nivo.slider.pack.js"></script>
+        <script src="https://alphamonetique.com/assets/js/jquery.nivo.slider.pack.js"></script>
         <!-- All plugins here -->
-        <script src="http://localhost/AMI/assets/js/plugins.js"></script>
+        <script src="https://alphamonetique.com/assets/js/plugins.js"></script>
         <!-- Main js  -->
-        <script src="http://localhost/AMI/assets/js/main.js"></script>
+        <script src="https://alphamonetique.com/assets/js/main.js"></script>
 
 
 

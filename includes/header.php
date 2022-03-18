@@ -23,13 +23,13 @@
                                             <!-- language-menu -->
                                             <div class="language">
                                                 <a href="#">
-                                                    <img src="images/icons/fr.png" alt="language-selector">Français
+                                                    <img src="https://alphamonetique.com/assets/images/icons/fr.png" alt="language-selector">Français
                                                     <i class="ion-ios-arrow-down"></i>
                                                 </a>
                                                 <ul>
                                                     <li>
                                                         <a href="#">
-                                                            <img src="http://localhost/AMI/assets/images/icons/en.png" alt="Anglais">
+                                                            <img src="https://alphamonetique.com/assets/images/icons/en.png" alt="Anglais">
                                                             <span>Anglais</span>
                                                         </a>
                                                     </li>
@@ -54,7 +54,7 @@
                             <div class="col-xl-2 col-md-12">
                                 <!-- site-logo -->
                                 <div class="site-logo">
-                                    <a href="index.php"><img src="http://localhost/AMI/assets/images/logo/amilogo3.png" alt="Nikado"></a>
+                                    <a href="index.php"><img src="https://alphamonetique.com/assets/images/logo/amilogo3.png" alt="Nikado"></a>
                                 </div>
                             </div>
                             <div class="col-xl-6 col-md-12">
@@ -113,37 +113,37 @@
                                     <span class="categorie-title">Catégories</span>
                                     <nav>
                                         <ul class="categori-menu-list menu-hidden">
-                                            <li><a href="http://localhost/AMI/tpe.php"><span><img src="http://localhost/AMI/assets/images/icons/4.png" alt="menu-icon"></span>T.P.E Autonome</a>
+                                            <li><a href="https://alphamonetique.com/tpe.php"><span><img src="https://alphamonetique.com/assets/images/icons/4.png" alt="menu-icon"></span>T.P.E Autonome</a>
                                                 <!-- categori Mega-Menu Start -->
 
                                                 <!-- categori Mega-Menu End -->
                                             </li>
-                                            <li><a href="http://localhost/AMI/tpe-centralise.php"><span><img src="http://localhost/AMI/assets/images/icons/4.png" alt="menu-icon"></span>T.P.E Centralisé</a>
+                                            <li><a href="https://alphamonetique.com/tpe-centralise.php"><span><img src="https://alphamonetique.com/assets/images/icons/4.png" alt="menu-icon"></span>T.P.E Centralisé</a>
                                                 <!-- categori Mega-Menu Start -->
 
                                                 <!-- categori Mega-Menu End -->
                                             </li>
-                                            <li><a href="http://localhost/AMI/monnayeur.php"><span><img src="http://localhost/AMI/assets/images/icons/6.png" alt="menu-icon"></span>Monnayeur</a>
+                                            <li><a href="https://alphamonetique.com/monnayeur.php"><span><img src="https://alphamonetique.com/assets/images/icons/6.png" alt="menu-icon"></span>Monnayeur</a>
                                                 <!-- categori Mega-Menu Start -->
 
                                                 <!-- categori Mega-Menu End -->
                                             </li>
-                                            <li><a href="http://localhost/AMI/systeme-encaissement.php"><span><img src="http://localhost/AMI/assets/images/icons/3.png" alt="menu-icon"></span>Système d'encaissement</a>
+                                            <li><a href="https://alphamonetique.com/systeme-encaissement.php"><span><img src="https://alphamonetique.com/assets/images/icons/3.png" alt="menu-icon"></span>Système d'encaissement</a>
+                                                <!-- categori Mega-Menu Start -->
+
+                                                <!-- categori Mega-Menu End 
+                                            </li>
+                                            <li><a href="https://alphamonetique.com/solution-paiement.php"><span><img src="https://alphamonetique.com/assets/images/icons/4.png" alt="menu-icon"></span>Solution Paiement</a>
+                                                categori Mega-Menu Start -->
+
+                                                <!-- categori Mega-Menu End -->
+                                            </li>
+                                            <li><a href="https://alphamonetique.com/camera-de-surveillance.php"><span><img src="https://alphamonetique.com/assets/images/icons/5.png" alt="menu-icon"></span>Caméra de surveillance</a>
                                                 <!-- categori Mega-Menu Start -->
 
                                                 <!-- categori Mega-Menu End -->
                                             </li>
-                                            <li><a href="http://localhost/AMI/solution-paiement.php"><span><img src="http://localhost/AMI/assets/images/icons/4.png" alt="menu-icon"></span>Solution Paiement</a>
-                                                <!-- categori Mega-Menu Start -->
-
-                                                <!-- categori Mega-Menu End -->
-                                            </li>
-                                            <li><a href="http://localhost/AMI/camera-de-surveillance.php"><span><img src="http://localhost/AMI/assets/images/icons/5.png" alt="menu-icon"></span>Caméra de surveillance</a>
-                                                <!-- categori Mega-Menu Start -->
-
-                                                <!-- categori Mega-Menu End -->
-                                            </li>
-                                            <li><a href="http://localhost/AMI/caisse-enregistreuse.php"><span><img src="http://localhost/AMI/assets/images/icons/9.png" alt="menu-icon"></span>Caisse Enregistreuse</a>
+                                            <li><a href="https://alphamonetique.com/caisse-enregistreuse.php"><span><img src="https://alphamonetique.com/assets/images/icons/9.png" alt="menu-icon"></span>Caisse Enregistreuse</a>
                                                 <!-- categori Mega-Menu Start -->
 
                                                 <!-- categori Mega-Menu End -->
@@ -157,16 +157,12 @@
                                 <div class="main-menu">
                                     <nav>
                                         <ul>
-                                            <li class="current"><a href="http://localhost/AMI/index.php">Accueil</a>
+                                            <li class="current"><a href="https://alphamonetique.com/index.php">Accueil</a>
                                             </li>
-                                            <li><a href="http://localhost/AMI/a-propos.php">À propos</a></li>
-                                            <li><a href="">Demande de devis <i class="fa fa-angle-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="http://localhost/AMI/devis-achat-tpe.php">Devis Achat T.P.E</a></li>
-                                                    <li><a href="http://localhost/AMI/devis-achat-caisse.php">Devis Achat Caisse</a></li>
-                                                </ul>
+                                            <li><a href="https://alphamonetique.com/a-propos.php">À propos</a></li>
+                                            <li><a href="https://alphamonetique.com/devis.php">Demande de devis</a>
                                             </li>
-                                            <li><a href="http://localhost/AMI/contact.php">Contactez-nous</a></li>
+                                            <li><a href="https://alphamonetique.com/contact.php">Contactez-nous</a></li>
                                         </ul>
                                     </nav>
                                 </div>
