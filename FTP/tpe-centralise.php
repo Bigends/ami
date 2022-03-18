@@ -57,7 +57,7 @@
                         <div class="col-sm-12">
                             <nav class="woocommerce-breadcrumb">
                                 <a href="">Catégorie</a>
-                                <span class="separator">/</span> T.P.E
+                                <span class="separator">/</span> T.P.E Centralisé
                             </nav>
                         </div>
                     </div>
@@ -109,11 +109,24 @@
                                     </ul>
                                 </div>
 
-                                <div class="sidebar-single-banner">
-                                    <a href="#">
-                                        <img src="https://alphamonetique.com/assets/images/banner/pub-side.jpg" alt="Banner">
-                                    </a>
+                                <!-- Images banner -->
+                                <div class="widget-content">
+                                    <ul class="product-categories">
+                                        <a href="https://alphamonetique.com/tpe-centralise.php">
+                                           <img src="https://alphamonetique.com/assets/images/pub/tpe.png" alt="Banner">
+                                        </a>
+                                    </ul>
                                 </div>
+
+                                <div class="widget-content">
+                                    <ul class="product-categories">
+                                        <a href="https://alphamonetique.com/monnayeur.php">
+                                           <img src="https://alphamonetique.com/assets/images/pub/cash.jpg" alt="Banner">
+                                        </a>
+                                    </ul>
+                                </div>
+                                <!-- Images banner -->
+
                             </div>
                         </div>
                         <div class="col-xs-12 col-md-9 shop-content">
