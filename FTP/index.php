@@ -52,6 +52,21 @@
         <?php include 'includes/header.php';?>
         <!-- Header Done -->
 
+                   <!-- Breadcrumbs -->
+                   <div class="breadcrumbs-container">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <nav class="woocommerce-breadcrumb">
+                                <a href="https://alphamonetique.com/tpe.php">PRODUITS
+                                <span class="separator">/</span> Découvrez nos produits
+                            </nav></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Breadcrumbs End -->
+
             <!-- Slider area -->
             <div class="slider-area">
                 <div class="container">
@@ -65,8 +80,8 @@
                                 <!-- Carousel start -->
                                 <div class="slider-inner">
                                     <div id="mainSlider" class="nivoSlider nevo-slider">
-                                        <img src="https://alphamonetique.com/assets/images/slider/slider.jpg" alt="main slider" title="#htmlcaption1" />
-                                        <img src="https://alphamonetique.com/assets/images/slider/slider-2.jpg" alt="main slider" title="#htmlcaption2" />
+                                        <a href="https://alphamonetique.com/tpe.php"><img src="https://alphamonetique.com/assets/images/slider/slider.jpg" alt="main slider" title="#htmlcaption1" /></a>
+                                        <a href="https://alphamonetique.com/tpe.php"><img src="https://alphamonetique.com/assets/images/slider/slider-2.jpg" alt="main slider" title="#htmlcaption2" /></a>
                                     </div>
                                     <div id="htmlcaption1" class="nivo-html-caption slider-caption">
                                         <div class="slider-progress"></div>
@@ -84,14 +99,14 @@
                         <div class="slider-banner-area col-sm-12">
                             <div class="slider-banner">
                                 <div class="slider-single-banner">
-                                    <a href="shop.html">
+                                    <a href="https://alphamonetique.com/tpe-centralise.php">
                                         <img src="https://alphamonetique.com/assets/images/banner/banner5.jpg" alt="Banner">
                                     </a>
                                 </div>
                             </div>
                             <div class="slider-banner">
                                 <div class="slider-single-banner">
-                                    <a href="shop.html">
+                                    <a href="https://alphamonetique.com/caisse-enregistreuse.php">
                                         <img src="https://alphamonetique.com/assets/images/banner/banner6.jpg" alt="Banner">
                                     </a>
                                 </div>
@@ -120,7 +135,7 @@
                                     <div class="single-policy">
                                         <div class="icon"><i class="icon ion-paper-airplane"></i></div>
                                         <h3>Livraison</h3>
-                                        <p>Gratuite à partir de 500€</p>
+                                        <p>Antilles-Guyane</p>
                                     </div>
                                 </div>
                                 <div class="single-policy-area">
@@ -184,8 +199,8 @@
                                                         Pro
                                                     </span>
                                                     <div class="product-desc">
-                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco,Proin lectus
-                                                            ipsum, gravida et mattis vulputate, tristique ut lectus</p>
+                                                        <p>Grace à nos contrats de maintenance, nous garantissons l'entretien et le maintien du bon fonctionnement de vos appareils (TPE, Cashdrow, Caisse Electronique), quels qu'ils soient. 
+                                                           Au moins une fois par mois, par date établie ou prise de rendez-vous, nos techniciens se rendront dans vos enseignes pour y effectuer toute intervention nécessaire garantissant l'efficacité de vos produits achetés chez A.M.I.</p>
                                                     </div>
                                                     <div class="pack">
                                                         <button>Découvrir</button>
@@ -202,24 +217,24 @@
                                         <div class="product-wrapper listview">
                                             <div class="list-col4">
                                                 <div class="product-image">
-                                                    <a href="">
+                                                    <a href="https://alphamonetique.com/systeme-encaissement.php">
                                                         <span class="onsale">Nouveau!</span>
                                                         <img src="https://alphamonetique.com/assets/images/prog/logo3.png" alt="">
                                                     </a>
                                                     <div class="quickviewbtn">
-                                                        <a href="#" data-toggle="modal" data-target="#product_modal" data-original-title="Quick View"><i class="ion-eye"></i></a>
+                                                        <a href="https://alphamonetique.com/systeme-encaissement.php" data-toggle="modal" data-target="#product_modal" data-original-title="Quick View"><i class="ion-eye"></i></a>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="list-col8">
                                                 <div class="product-info">
-                                                    <h2><a href="single-product.html">PROGRAMME</a></h2>
+                                                    <h2><a href="https://alphamonetique.com/systeme-encaissement.php">PROGRAMME</a></h2>
                                                     <span class="price">
                                                         <del></del>Logiciel de caisse
                                                     </span>
                                                     <div class="product-desc">
-                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco,Proin lectus
-                                                            ipsum, gravida et mattis vulputate, tristique ut lectus</p>
+                                                        <p>Avec une gamme variée de produits que nous proposons à nos clients vient plusieurs logiciels adaptés à leur type de commerce. Pour s'assurer du confort d'utilisation, nous nous assurons, auprès de nos programmateurs ainsi que de nos collaborateurs, que le logiciel installé sur nos caisses réponde au mieux à leurs demandes.
+                                                        Vous pourrez retrouver une variété de logiciels sur nos caisses PAX ainsi que le logiciel caisse Pi.</p>
                                                     </div>
                                                     <div class="pack">
                                                         <button>Découvrir</button>

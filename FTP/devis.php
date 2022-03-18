@@ -119,7 +119,7 @@
                                     <li>
                                         <i class="fa fa-phone">&nbsp;</i> 0594 30 46 67</li>
                                     <li>
-                                        <i class="fa fa-envelope-o"></i>&nbsp; contact.alphamonetique@gmail.com</li>
+                                        <i class="fa fa-envelope-o"></i>&nbsp; contact@alphamonetique.com</li>
                                 </ul>
                                 <h3>
                                     <strong>Horaire d'ouverture</strong>
